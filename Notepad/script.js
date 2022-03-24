@@ -19,6 +19,7 @@ addBtn.addEventListener("click", (e) => {
   // addTxt.value = "";
   //   console.log(notesOBJ);
   showNotes();
+  location.reload();
 });
 
 // function to show elements from local storage
