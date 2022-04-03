@@ -1,6 +1,7 @@
 const alarmBtn = document.getElementById("alarmbtn");
 const alarm = document.getElementById("alarm");
 const alarmBtnCancel = document.getElementById("alarmbtncancel");
+let newaudio = new Audio("click.mp3");
 
 alarmBtn.addEventListener("click", setAlarm);
 let audio;
@@ -12,6 +13,8 @@ function ringBell() {
 
 function setAlarm(e) {
   e.preventDefault();
+  newaudio.play();
+
   let alarmDate = new Date(alarm.value);
   let date = new Date();
   //   console.log("Alarm is set " + alarm.value + alarmDate);
@@ -30,6 +33,8 @@ function setAlarm(e) {
 alarmBtnCancel.addEventListener("click", (e) => {
   e.preventDefault();
   audio.pause();
+  newaudio.play();
+
 });
 
 // https://koushik099.github.io/Project/Alarm%20Clock/
