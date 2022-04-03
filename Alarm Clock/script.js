@@ -16,7 +16,7 @@ function setAlarm(e) {
   let date = new Date();
   //   console.log("Alarm is set " + alarm.value + alarmDate);
 
-  //   let ringAlarm = alarmDate - date;
+  let ringAlarm = alarmDate - date;
   console.log(ringAlarm);
   if (ringAlarm > 0) {
     setTimeout(() => {
