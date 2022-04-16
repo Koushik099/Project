@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  position: relative;
+}
+
+/* Navbar */
+header {
+  width: 100vw;
+  height: 13vh;
+  flex-direction: column;
+}
+.logo1 {
+  margin-top: 25px;
+  height: 29px;
+  width: 50px;
+}
+.items {
+  width: 100vw;
+  margin-top: 9px;
+}
+.items ul {
+  justify-content: space-around;
+}
+.items ul li {
+  list-style: none;
+}
+
+/* background photo */
+.photo1 {
+  height: 335px;
+  width: 100vw;
+}
+.photo2 {
+  width: 100vw;
+  height: 200px;
+  position: absolute;
+  top: 366px;
+  left: 0px;
+}
+
+.photo3 {
+  width: 100vw;
+  height: 200px;
+  top: 427px;
+  left: 0px;
+  position: absolute;
+  z-index: 2;
+}
+.photo4 {
+  width: 44px;
+  height: 49px;
+}
+.item1 {
+  position: absolute;
+  display: inline-flex;
+  top: 471px;
+  left: 100px;
+  z-index: 3;
+}
+.item2 {
+  position: absolute;
+  display: inline-flex;
+  top: 471px;
+  left: 326px;
+  z-index: 3;
+}
+.item3 {
+  position: absolute;
+  display: inline-flex;
+  top: 471px;
+  right: 329px;
+  z-index: 3;
+}
+.item4 {
+  position: absolute;
+  display: inline-flex;
+  top: 471px;
+  right: 100px;
+
+  z-index: 3;
+}
+
+.container {
+  height: 29vh;
+  width: 100vw;
+  background-color: white;
+}
+
+.container1 {
+  height: 10vh;
+  width: 100vw;
+  /* background-color: red; */
+  position: relative;
+}
+.photo5 {
+  width: 186px;
+  height: 36px;
+}
+.photo6 {
+  height: 25px;
+  width: 160px;
+  margin: 0 10px;
+}
+.photo7 {
+  height: 59px;
+  width: 208px;
+  position: absolute;
+  left: 66px;
+}
+.photo8 {
+  height: 59px;
+  width: 208px;
+  position: absolute;
+  right: 66px;
+}
+.container2 {
+  width: 100vw;
+  height: 50vh;
+  padding: 0 30px;
+  /* background-color: red; */
+}
+.element1 {
+  height: 50vh;
+  width: 611px;
+  background-image: url("img1.png");
+  background-repeat: no-repeat;
+  background-size: 679px 328.5px;
+  margin-right: 5px;
+}
+.element2 {
+  height: 50vh;
+  width: 600px;
+  flex-direction: column;
+}
+.child1 {
+  width: 600px;
+  height: 164px;
+  background-image: url("img2.png");
+  background-repeat: no-repeat;
+  background-size: 601px 163px;
+}
+
+.child2 {
+  width: 600px;
+  margin-top: 5px;
+  height: 163px;
+  background-image: url("img4.png");
+  background-repeat: no-repeat;
+  background-size: 601px 165px;
+}
+
+.container4 {
+  width: 100vw;
+  height: 377px;
+  margin-top: 32px;
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 377px;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+}
+.photo9 {
+  position: absolute;
+  right: 386px;
+  top: 73px;
+  height: 40px;
+  width: 73px;
+}
+.photo10 {
+  position: absolute;
+  top: 168px;
+  right: 182px;
+  width: 467px;
+  height: 100px;
+}
+.photo11 {
+  position: absolute;
+  top: 277px;
+  right: 317px;
+  width: 180px;
+  height: 31px;
+  padding: 0 10px;
+  border-top: 1px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.container5 {
+  margin-top: 25px;
+  width: 100vw;
+  height: 50vh;
+  padding: 0 30px;
+  justify-content: space-around;
+}
+.photoframe {
+  height: 50vh;
+  width: 300px;
+}
+
+.top {
+  margin-left: 132px;
+}
+.bottom {
+  margin-left: 56px;
+}
+
+.photo12 {
+  margin-top: 5px;
+  height: 44.5vh;
+  width: 326px;
+}
+.btn {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-left: 82px;
+  padding: 8px 46px;
+  cursor: pointer;
+}
+
+.photo13 {
+  width: 100vw;
+  height: 460px;
+  margin-top: 38px;
+}
+
+.container6 {
+  height: 45vh;
+  width: 100vw;
+  padding: 0 30px;
+  justify-content: space-around;
+}
+.div {
+  height: 45vh;
+  width: 100vw;
+  background-color: aqua;
+  margin-right: 4px;
+}
+.div1 {
+  background-image: url("img8.png");
+  background-repeat: no-repeat;
+  background-size: 324px 295px;
+}
+.div2 {
+  background-image: url("img9.png");
+  background-repeat: no-repeat;
+  background-size: 324px 295px;
+}
+.div3 {
+  background-image: url("img10.png");
+  background-repeat: no-repeat;
+  background-size: 324px 295px;
+}
+.div4 {
+  background-image: url("img11.png");
+  background-repeat: no-repeat;
+  background-size: 324px 295px;
+}
+.photo14 {
+  width: 100vw;
+  height: 30vh;
+  margin-top: 24px;
+}
+.fixmargin {
+  margin-top: 0;
+}
+.photo15 {
+  width: 100vw;
+  height: 10vh;
+}
+
+body {
+  overflow-x: hidden;
+}
