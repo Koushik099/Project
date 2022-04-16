@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: white;
+  color: black;
+  width: 100vw;
+  height: 15vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* font-family: "Dongle", sans-serif; */
+}
+header h1 {
+  margin-top: 25px;
+}
+.items {
+  width: 100vw;
+  margin-top: 9px;
+  font-family: "Dongle", sans-serif;
+  font-size: 2rem;
+}
+.items ul {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.items ul li {
+  list-style: none;
+}
+.items ul li a {
+  color: black;
+  text-decoration: none;
+}
+.items li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+img {
+  height: 56vh;
+  width: 100vw;
+}
+
+.section {
+  height: 12vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.fixgap {
+  margin-top: -4px;
+}
+
+.sectionelement {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.sectionelement img {
+  height: 30px;
+  width: 30px;
+}
+.sectionelement span {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  margin-right: 294px;
+}
+
+.second {
+  background-color: white;
+}
+.second img {
+  width: 210px;
+  height: 42px;
+}
+
+.second span {
+  margin: 0 20px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 100vw;
+  height: 50vh;
+  padding: 0 80px;
+}
+.element1 {
+  height: 50vh;
+  width: 600px;
+  background-image: url("img4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 5px;
+}
+.element2 {
+  height: 50vh;
+  width: 600px;
+  flex-direction: column;
+}
+
+.item1 {
+  width: 600px;
+  height: 164px;
+  background-image: url("img7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item2 {
+  width: 600px;
+  margin-top: 5px;
+  height: 163px;
+  background-image: url("img5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 100vw;
+  height: 50vh;
+  margin-top: 25px;
+  background-image: url("img18.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgsection {
+  height: 40vh;
+  width: 250px;
+  border: 5px solid white;
+  margin-right: 60px;
+  background-image: url("img11.jpg");
+  background-repeat: no-repeat;
+  background-size: 250px 40vh;
+}
+.prasection {
+  height: 50vh;
+  width: 882px;
+
+  flex-direction: column;
+  padding: 0 245px;
+}
+.prasection h1 {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.prasection div {
+  height: 50px;
+  width: 150px;
+  border-top: 1px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding-top: 14px;
+  padding-left: 15px;
+}
+.prasection p {
+  margin-bottom: 10px;
+}
+
+.container2 {
+  margin-top: 25px;
+  width: 100vw;
+  height: 50vh;
+  padding: 0 25px;
+  justify-content: space-around;
+}
+.photoframe {
+  height: 50vh;
+  width: 300px;
+}
+
+.top {
+  margin-left: 116px;
+}
+.bottom {
+  margin-left: 44px;
+}
+
+.photoframe img {
+  margin-top: 5px;
+  height: 44.5vh;
+  width: 300px;
+}
+.photoframe button {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-left: 120px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.adjust {
+  justify-content: flex-start;
+}
+.adjustimg {
+  margin-left: 80px;
+}
+.receptionheading img {
+  height: 57px;
+  width: 92px;
+}
+.fixmargintop {
+  margin-top: 0;
+}
+
+.fixphotoframe img {
+  height: 47vh;
+}
+
+.container3 {
+  height: 10vh;
+  width: 100vw;
+  background-image: url("img15.jpg");
+}
+.container3 img {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 10px;
+}
+
+.container4 {
+  height: 20vh;
+  width: 100vw;
+  background-image: url("img15.jpg");
+  justify-content: space-around;
+}
+.boxx {
+  height: 50px;
+  width: 196px;
+}
+.boxx img {
+  height: 40px;
+  width: 40px;
+  margin-right: 11px;
+}
+
+.container5 {
+  width: 100vw;
+}
+.minibox {
+  width: 300px;
+  height: 25vh;
+  margin-right: 5px;
+  padding: 0 20px;
+}
+.minibox p {
+  margin-top: 60px;
+}
+
+.container6 {
+  width: 100vw;
+  height: 10vh;
+}
+
+.container6 img {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
