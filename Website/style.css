@@ -228,10 +228,13 @@ header {
   cursor: pointer;
 }
 
-.photo13 {
+.container7 {
   width: 100vw;
   height: 460px;
   margin-top: 38px;
+  background-image: url("bg3.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 460px;
 }
 
 .container6 {
