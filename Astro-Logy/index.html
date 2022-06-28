@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <script
+      src="https://kit.fontawesome.com/5300665298.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- navbar -->
+      <nav>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li>
+            <a href="#"
+              >Courses
+              <i class="fa-solid fa-circle-chevron-down"></i>
+            </a>
+            <ul>
+              <li><a href="#">HTML1</a></li>
+              <li><a href="#">Bootstrap</a></li>
+              <li><a href="#">Javascript</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"
+              >Web Design
+              <i class="fa-solid fa-circle-chevron-down"></i>
+            </a>
+            <ul>
+              <li><a href="#">Front End</a></li>
+              <li><a href="#">Back End</a></li>
+              <li><a href="#">Others </a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+        <div class="newdiv">
+          <span class="number"
+            ><i class="fa-brands fa-whatsapp"></i>
+            8637538774
+          </span>
+          <span class="menulines" onclick="openNav()">&#9776;</span>
+        </div>
+      </nav>
+      <!-- textsection1 -->
+      <div class="section1">
+        <h1>
+          Trust Our <br />
+          Experience
+        </h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium
+          magnam reprehenderit earum dicta? Assumenda velit vitae, possimus
+          quasi animi corrupti architecto dolore voluptatum molestias.
+        </p>
+        <button class="btn">Book an Appoinment</button>
+      </div>
+      <!-- section2 -->
+      <div class="section2">
+        <h4>
+          <span class="daily">DAILY</span><br /><span class="scope"
+            >HOROSCOPE</span
+          >
+        </h4>
+        <img src="astro.png" alt="" />
+
+        <span class="aries">Aries</span><br />
+        <span class="date">Mar 21-Apr 19</span>
+        <button class="btn2">View All</button>
+        <i class="fa-solid fa-greater-than arrow1"></i>
+        <i class="fa-solid fa-less-than arrow2"></i>
+      </div>
+    </div>
+
+    <!-- maincontainer -->
+    <div class="main">
+      <div class="circle"><b>Our Astrologers</b></div>
+    </div>
+
+    <!-- details -->
+    <div class="container1">
+      <div class="details1">
+        <div class="circle2"></div>
+        <h4>Acharya Rekha Ji</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, non?
+        </p>
+        <button class="btn3">View profile</button>
+      </div>
+      <div class="details1">
+        <div class="circle2"></div>
+        <h4>Acharya Rekha Ji</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, non?
+        </p>
+        <button class="btn3">View profile</button>
+      </div>
+    </div>
+
+    <!-- slidebar -->
+    <div class="slidenav" id="mysidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="#"><i class="fa-solid fa-house-user"></i>Home</a>
+      <a href="#"><i class="fa-solid fa-address-card"></i>About</a>
+      <a href="#"><i class="fa-brands fa-envira"></i>Gallery</a>
+      <a href="#"><i class="fa-solid fa-person"></i>Clients</a>
+      <a href="#"><i class="fa-brands fa-servicestack"></i>Service</a>
+      <a href="#"><i class="fa-solid fa-address-book"></i>Contact</a>
+    </div>
+    <!-- floatwindow -->
+    <div class="slide">
+      <h1>Our Services</h1>
+
+      <div>
+        <span class="span">Free Services</span> <span>Premium Services</span>
+      </div>
+
+      <div class="boxes">
+        <div class="box"><b>Festivals</b></div>
+        <div class="box"><b>Festivals</b></div>
+        <div class="box"><b>Festivals</b></div>
+        <div class="box"><b>Festivals</b></div>
+      </div>
+      <i class="fa-solid fa-greater-than g"></i>
+      <i class="fa-solid fa-less-than l"></i>
+    </div>
+
+    <div class="container3">
+      <h1>Shop Online</h1>
+
+      <div>
+        <span class="span1">Gemes Cornar</span>
+        <span class="span2">Rudraksha Collection</span>
+      </div>
+
+      <div class="boxes1">
+        <div class="box1">
+          <b>Rubby</b><br />
+          <strong class="span3">Price:15000</strong>
+          <button class="btn4">Make a Request</button>
+        </div>
+        <div class="box1">
+          <b>Rubby</b><br />
+          <strong class="span3">Price:15000</strong>
+          <button class="btn4">Make a Request</button>
+        </div>
+        <div class="box1">
+          <b>Rubby</b><br />
+          <strong class="span3">Price:15000</strong>
+          <button class="btn4">Make a Request</button>
+        </div>
+        <div class="box1">
+          <b>Rubby</b><br />
+          <strong class="span3">Price:15000</strong>
+          <button class="btn4">Make a Request</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="box3 boxu">
+        <a href="/">Home</a>
+        <a href="/">About Us</a>
+        <a href="/">Free Services</a>
+        <a href="/">Premium Services</a>
+      </div>
+      <div class="box4 boxu">
+        <a href="/">Home</a>
+        <a href="/">About Us</a>
+        <a href="/">Free Services</a>
+        <a href="/">Premium Services</a>
+      </div>
+      <div class="box5 boxu">
+        <a href="/"><i class="fa-solid fa-phone"></i>8637538774</a>
+        <a href="/"
+          ><i class="fa-solid fa-envelope-circle-check"></i>k.gmail.com</a
+        >
+      </div>
+      <div class="box6 boxu">
+        <h6>Get In Touch</h6>
+        <p>
+          <i class="fa-brands fa-facebook"></i
+          ><i class="fa-brands fa-twitter-square"></i>
+          <i class="fa-brands fa-youtube-square"></i>
+        </p>
+      </div>
+      <p class="footerpara">&copy;All Right reserved</p>
+    </footer>
+    <script>
+      const openNav = () => {
+        document.getElementById("mysidenav").style.width = "220px";
+      };
+      const closeNav = () => {
+        document.getElementById("mysidenav").style.width = "0px";
+        // document.getElementById("mysidenav").style.display = "none";
+      };
+    </script>
+  </body>
+</html>
